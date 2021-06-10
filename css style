@@ -1,25 +1,26 @@
+/********** Base styles **********/
 * {
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1 {
-    color: blue;
+    color: darkred;
     font-size: 175%;
     text-align: center;
 }
 
 section {
-    border: 1px solid black;    
-    background-color: bisque;
+    border: 3px solid black;    
+    background-color: lightgrey;
     height: 250px;
     overflow: auto;
 }
 
 h2 {
     float: right;
-    border:1px solid black;
-    color: lavender;
+    border:2px solid black;
+    color: black;
     font-size: 125%;
     padding: 5px 20px 5px 20px;
     margin-top: 0;
@@ -32,17 +33,21 @@ ul {
 }
 
 #chicken {
-    background-color: brown;
+    background-color: pink;
 }
 
-#pork {
-    background-color: darkorchid;
+#beef {
+    background-color: pink;
 }
 
-#steak {
-    background-color: forestgreen;
+#Vegetable {
+    background-color: pink;
 }
 
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
 
 /********** Desktop version **********/
 @media (min-width: 992px) {
@@ -175,4 +180,4 @@ ul {
       width: 100%;
     }
   }
-© 2021 GitHub, Inc.
+©</style>
